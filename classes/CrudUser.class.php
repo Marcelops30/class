@@ -7,7 +7,7 @@
  */
 
 require_once 'DB.php';
-
+// gfhghhhg
 abstract class CrudUser extends DB {
     protected $tabela;
     private $nome;
