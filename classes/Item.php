@@ -3,7 +3,7 @@
 /**
  * Description of Item
  *
- * @author MARCELO glkgknkgkn
+ * @author MARCELO 
  */
 class Item {
         protected $tabela = 'tbl_item_atividade';
