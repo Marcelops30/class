@@ -36,14 +36,6 @@ CREATE TABLE `tbl_atividade` (
   `imagem_asm` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `tbl_atividade`
---
-
-INSERT INTO `tbl_atividade` (`id_asm`, `nome_asm`, `tempo_asm`, `pontuacao_asm`, `imagem_asm`) VALUES
-(1, 'logistica', '200min', '12', 'sem imagem');
-
--- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `tbl_item`
@@ -55,12 +47,6 @@ CREATE TABLE `tbl_item` (
   `seguencia_ias` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `tbl_item`
---
-
-INSERT INTO `tbl_item` (`id_ias`, `nome_ias`, `seguencia_ias`) VALUES
-(200, 'pera', '12');
 
 --
 -- Indexes for dumped tables

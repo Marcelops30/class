@@ -1,5 +1,10 @@
 <?php
-class atividade
+/**
+ * Description of Atividade.class.php
+ *
+ * @author MARCELO
+ */
+class Atividade
 {
 	private $pdo;
 
