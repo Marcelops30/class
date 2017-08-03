@@ -5,9 +5,9 @@ class item
 	private $pdo;
 
 		
-    public $id_ias;
-    public $nome_ias;
-    public $seguencia_ias;
+    private $id_ias;
+    private $nome_ias;
+    private $seguencia_ias;
 
 	public function __CONSTRUCT()
 	{
@@ -20,6 +20,14 @@ class item
 			die($e->getMessage());
 		}
 	}
+
+	public function __set($atrib, $value) {
+        $this->$atrib = $value;
+    }
+    
+    public function __get($atrib) {
+        return $this->$atrib ;
+    }
 
 	public function Listar()
 	{

@@ -10,7 +10,7 @@
 <form id="frm-item" action="?c=item&a=Guardar" method="post" enctype="multipart/form-data">
 
     <div class="form-group">
-      <label>Codigo</label>
+      <label>ID</label>
       <input type="text" name="id_ias" value="<?php echo $it->id_ias; ?>" class="form-control" placeholder="" data-validacion-tipo="requerido|min:20" />
     </div>
 

@@ -8,7 +8,6 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th style="width:180px;">Código Atividade</th>
             <th style="width:120px;">Nome</th>
             <th style="width:120px;">Tempo</th>
             <th style="width:120px;">Pontuação</th>
@@ -18,7 +17,6 @@
     <tbody>
     <?php foreach($this->model->Listar() as $r): ?>
         <tr>
-            <td><?php echo $r->id_asm; ?></td>
             <td><?php echo $r->nome_asm; ?></td>
             <td><?php echo $r->tempo_asm; ?></td>
             <td><?php echo $r->pontuacao_asm; ?></td>

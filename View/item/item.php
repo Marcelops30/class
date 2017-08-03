@@ -8,7 +8,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th style="width:180px;">id_ias</th>
+            <th style="width:180px;">ID</th>
             <th style="width:120px;">Nome</th>
             <th style="width:120px;">Seguencia</th>
         </tr>

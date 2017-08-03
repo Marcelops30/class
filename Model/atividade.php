@@ -3,11 +3,11 @@ class atividade
 {
 	private $pdo;
 
-    public $id_asm;
-    public $nome_asm;
-    public $tempo_asm;
-    public $pontuacao_asm;
-	public $imagem_asm;
+    private $id_asm;
+    private $nome_asm;
+    private $tempo_asm;
+    private $pontuacao_asm;
+	private $imagem_asm;
 
 	public function __CONSTRUCT()
 	{
@@ -20,6 +20,14 @@ class atividade
 			die($e->getMessage());
 		}
 	}
+
+	public function __set($atrib, $value) {
+        $this->$atrib = $value;
+    }
+    
+    public function __get($atrib) {
+        return $this->$atrib ;
+    }
 
 	public function Listar()
 	{

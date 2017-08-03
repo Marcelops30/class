@@ -3,7 +3,7 @@
 </h1>
 
 <ol class="breadcrumb">
-  <li><a href="?c=atividade">Productos</a></li>
+  <li><a href="?c=atividade">Atividade</a></li>
   <li class="active"><?php echo $ativ->id_asm != null ? $ativ->nome_asm : 'Novo Registro'; ?></li>
 </ol>
 

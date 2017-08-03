@@ -9,10 +9,10 @@
 
 <form id="frm-atividade" action="?c=atividade&a=Guardar" method="post" enctype="multipart/form-data">
 
-    <div class="form-group">
-      <label>Código Producto</label>
+    <!--<div class="form-group">
+      <label>ID</label>
       <input type="text" name="id_asm" value="<?php echo $ativ->id_asm; ?>" class="form-control" placeholder="" data-validacion-tipo="requerido|min:20" />
-    </div>
+    </div>-->
 
     <div class="form-group">
         <label>Nome</label>
