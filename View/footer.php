@@ -5,8 +5,8 @@
                     <footer class="footer-distributed">
 
 			                <div class="footer-right">
-				                <a href="https://twitter.com/rbaenan"><i class="fa fa-twitter"></i></a>
-				                <a href="https://github.com/rbaena"><i class="fa fa-github"></i></a>
+				                <a href=""><i class="fa fa-twitter"></i></a>
+				                <a href=""><i class="fa fa-github"></i></a>
   			              </div>
 
 			                <div class="footer-left">
