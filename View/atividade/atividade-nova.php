@@ -31,7 +31,7 @@
 
     <div class="form-group">
         <label>Imagem</label>
-        <input type="text" name="imagem_asm" value="<?php echo $ativ->imagem_asm; ?>" class="form-control" placeholder="" data-validacion-tipo="requerido|min:240" />
+        <input type="file" name="imagem_asm" value="<?php echo $ativ->imagem_asm; ?>" class="form-control" placeholder="" data-validacion-tipo="requerido|min:240" />
     </div>
 
     <hr />
